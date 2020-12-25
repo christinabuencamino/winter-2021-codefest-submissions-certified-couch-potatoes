@@ -1,8 +1,9 @@
 # Hunter Codefest 2020-2021
 
 # Team Info
-### Team name: 
+### Team name: Certified Couch Potatoes
 ### Team members (format: GitHub username, last name, first name):
+CYC02 Chan Cindy
 
 ### Group info (check all that apply - add an X in the [ ])
 - [ ] We are a Daedalus Google Mentorship group
