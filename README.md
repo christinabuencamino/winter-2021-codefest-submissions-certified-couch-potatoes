@@ -5,7 +5,7 @@
 ### Team members (format: GitHub username, last name, first name):
 CYC02 Chan Cindy
 clare-lee Lee Clare
-cbuencamino Buencamino Christina
+ahmdaa Abdalla Ahmed
 
 ### Group info (check all that apply - add an X in the [ ])
 - [ ] We are a Daedalus Google Mentorship group
