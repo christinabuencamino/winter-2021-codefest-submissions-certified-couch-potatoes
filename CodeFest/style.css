@@ -30,6 +30,7 @@ html, body {
 }
 .jumbotron {
     padding: 1rem;
+    padding-bottom: 0;
     border-radius: 0;
 }
 
@@ -46,17 +47,51 @@ footer a {
 }
 
 /*----- Information -----*/
-.information, .info-img h4 {
+.information, .handwash, .disinfect, .info-img h4 {
     padding: 2rem;
+    padding-bottom: 0%;
     text-align: left;
 }
+.source{
+    text-align: right;
+    font-size: small;
+    color: lightgray;
+}
 
-.info-img .img-item{
+.handwash {
+    padding-top: 0%;
+}
+.hand-img {
+    width: 60%;
+    margin: 0 auto;
+    padding-top: 2rem;
+}
+.red{
+    color: red;
+}
+.img-item{
     width: 60%;
     margin: 0 auto;
     padding-bottom: 2rem;
 }
 
+.info-list {
+    list-style-type: square;
+    color: black;
+    font-size: large;
+}
+.info-list a:link{
+    color: black;
+}
+.info-list a:visited{
+    color: black;
+}
+.info-list a:hover{
+    color: lightskyblue;
+}
+.information .grey-text {
+    color: lightsalmon;
+}
 /*----- About Us -----*/
 
 .about-section, .team {
