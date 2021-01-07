@@ -3,9 +3,9 @@
 # Team Info
 ### Team name: Certified Couch Potatoes
 ### Team members (format: GitHub username, last name, first name):
-CYC02 Chan Cindy
-clare-lee Lee Clare
-ahmdaa Abdalla Ahmed
+- CYC02 Chan Cindy
+- clare-lee Lee Clare
+- ahmdaa Abdalla Ahmed
 
 ### Group info (check all that apply - add an X in the [ ])
 - [ ] We are a Daedalus Google Mentorship group
