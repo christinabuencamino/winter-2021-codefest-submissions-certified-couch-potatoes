@@ -28,7 +28,8 @@ html, body {
 .inner-item {
     text-align: center;
 }
-.jumbotron {
+
+.display-4, .jumbotron {
     padding: 1rem;
     padding-bottom: 0;
     border-radius: 0;
@@ -47,8 +48,9 @@ footer a {
 }
 
 /*----- Information -----*/
-.information, .handwash, .disinfect, .info-img h4 {
+.information, .handwash, .disinfect, .covid, .stress {
     padding: 2rem;
+    padding-top: 0%;
     padding-bottom: 0%;
     text-align: left;
 }
@@ -99,6 +101,27 @@ footer a {
     text-align: left;
 }
 
+/*----- Behind the Scenes -----*/
+.content {
+    padding: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 0%;
+    text-align: left;
+}
+
+.wrapper{
+    text-align: center;
+    width: 100%; 
+    overflow-x:scroll;     
+    white-space: nowrap;
+}
+
+.slide{
+    display: inline-block;  
+}
+.Jamboard{
+    padding-top: 2rem;
+}
 
 /*---Firefox Bug Fix --*/
 .carousel-item {
