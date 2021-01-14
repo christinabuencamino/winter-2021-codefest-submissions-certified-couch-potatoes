@@ -6,7 +6,8 @@
 - CYC02 Chan Cindy
 - clare-lee Lee Clare
 - ahmdaa Abdalla Ahmed
-- Arifa-B Arifa Baksh
+- Arifa-B Baksh Arifa
+- christinabuencamino Buencamino Christina
 
 ### Group info (check all that apply - add an X in the [ ])
 - [ ] We are a Daedalus Google Mentorship group
