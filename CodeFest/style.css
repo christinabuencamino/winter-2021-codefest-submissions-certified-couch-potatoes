@@ -48,26 +48,50 @@ footer a {
 }
 
 /*----- Information -----*/
-.information, .handwash, .disinfect, .covid, .stress {
+.information, .masks, .handwash, .disinfect, .covid, .stress {
     padding: 2rem;
     padding-top: 0%;
     padding-bottom: 0%;
     text-align: left;
 }
+
 .source{
     text-align: right;
     font-size: small;
     color: lightgray;
 }
-
-.handwash {
-    padding-top: 0%;
+.covid h3 {
+    padding-top: 2rem;
 }
+
+/*----- Masks -----*/
+.masks-img {
+    width: 50%;
+    margin: 0 auto;
+}
+.masks .grey-text {
+    color: lightslategrey;
+}
+
 .hand-img {
     width: 60%;
     margin: 0 auto;
     padding-top: 2rem;
 }
+
+/*----- Disinfect -----*/
+.grid-container {
+    display: inline-grid;
+    grid-template-columns: auto auto auto;
+    padding: 0;
+}
+  
+.grid-item {
+    padding: 10px;
+    text-align: left;
+  }
+
+
 .red{
     color: red;
 }
@@ -91,9 +115,7 @@ footer a {
 .info-list a:hover{
     color: lightskyblue;
 }
-.information .grey-text {
-    color: lightsalmon;
-}
+
 /*----- About Us -----*/
 
 .about-section, .team {
