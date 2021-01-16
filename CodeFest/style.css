@@ -5,6 +5,7 @@ html, body {
     width: 100%;
     font-family: "Courier";
     color: #222;
+    
 }
 
 .lead {
@@ -46,9 +47,31 @@ footer {
 footer a {
     color: #d5d5d5;
 }
+/*------ table of contents + container with coivd19-----*/
+.top-container {
+    width: 100%;
+}
+
+.toc-container {
+    border-left: 2px solid darkgray;
+    display: table;
+    width: 20%;
+    float: right;
+    padding-top: 2rem;
+}
+.toc-title {
+    font-weight: 700;
+    text-align: center;
+}
+.toc-container li, .toc-container ul, .toc-container ul li{
+    list-style: outside none none !important;
+}
+
+ 
 
 /*----- Information -----*/
-.information, .masks, .handwash, .disinfect, .covid, .stress {
+
+.information, .masks, .handwash, .disinfect, .isolation, .stress, .covid {
     padding: 2rem;
     padding-top: 0%;
     padding-bottom: 0%;
