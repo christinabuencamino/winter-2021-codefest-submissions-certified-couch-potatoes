@@ -1,7 +1,7 @@
 # Hunter Codefest 2020-2021
 
 # How to install
-Go to https://codefest.huntercs.org/winter-2021-codefest-submissions-certified-couch-potatoes/
-Go to the "Game" page
+In Game Installer folder, there is an executable installer Lockdown Setup (x86). Go through installation.
 
 # How to run
+In installed directory, run A Lockdown Story.exe.
