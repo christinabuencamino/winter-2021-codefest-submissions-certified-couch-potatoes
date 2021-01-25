@@ -171,17 +171,71 @@
 <div class="Scripts">
 		<h1>The Unity Scripts</h1>
 		<ul>
-			<h2>Player.cs</h2>
-			<img src="img/Player_Variables.PNG">
-			<img src="img/Player_SaveLoad.PNG">
-			<img src="img/Player_Food.PNG">
-			<img src="img/Player_Coffee.PNG">
-			<img src="img/Player_Money.PNG">
-			<img src="img/Player_Health.PNG">
-			<img src="img/Player_SubTasks.PNG">
-			<img src="img/Player_Kitchen.PNG">
-			<img src="img/Player_KitchenUpdate.PNG">
-			<img src="img/Player_LoadScene.PNG">
+			<li>TabChanger.cs</li>
+			<img src="img/Script_TabChanger.PNG">
+			<li>InventoryUpdater.cs</li>
+			<img src="img/Script_InventoryUpdater.PNG">
+			<li>MenuControl.cs</li>
+			<img src="img/Script_MenuControl.PNG">
+			<li>PanelUpdater.cs</li>
+			<img src="img/Script_PanelUpdater.PNG">
+			<li>KitchenActions.cs</li>
+			<img src="img/Script_KitchenActions.PNG">
+			<li>KitchenProcessControl.cs</li>
+			<img src="img/Script_KitchenProcess1.png">
+			<img src="img/Script_KitchenProcess2.png">
+			<img src="img/Script_KitchenProcess3.png">
+			<li>FoodDescriptionChanger.cs</li>
+
+			<li>Bed.cs</li>
+			<img src="img/Script_Bed.png">
+			<p>Scripts that activate, deactivate, and modify game objects and what they contain under certain conditions
+while the game is running.
+A summary of what these scripts do:</p>
+			<ul>
+				<li>Activate and deactivate game objects like prompts, menus and images when conditions are met.</li>
+				<li>Make buttons interactable or not based on the values of certain variables.</li>
+				<li>Change text contained in buttons, images or panels.</li>
+				<li>Modify the game's static variables in response to player actions.</li>
+			</ul>
+		</ul>
+		<hr>
+		<ul>
+			<li>Tooltip.cs</li>
+			<li>TooltipSystem.cs</li>
+			<li>TooltipTrigger.cs</li>
+			<p>Scripts that allow attaching tooltips that show when hovering over objects in scenes.</p>
+			<ul>
+				<li>Tooltip.cs sets text fields, manages how the tooltip resizes (upon reaching a certain number of characters),
+and sets the position of the tooltip relative to the position of the mouse pointer which changes based on the
+scenes' canvas render mode.</li>
+				<li>TooltipSystem.cs creates the Tooltip object and contains the tooltip's show and hide methods.</li>
+				<li>TooltipTrigger.cs activates a tooltip when the mouse pointer is hovered over a game object it is
+attached to. It is also where the content of the text fields inside the tooltip is determined.</li>
+			</ul>
+		</ul>
+		<hr>
+		<ul>
+			<li>Game.cs</li>
+			<p>The main essential game management and control script. It creates all the static data variables that are
+utilized within the game, methods that allow for modifying them, and methods to create time-based or other
+types of processes to run in the background when the game starts. Some time-based processes include coffee
+brewing and stove cooking which take a certain amount of time to complete and for their changes to take
+effect in the game. The script also contains methods that allow for saving and loading the game at any point
+or state.</p>
+		</ul>
+		<hr>
+		<ul>
+			<li>GameData.cs</li>
+			<li>SaveSystem.cs</li>
+			<ul>
+				<li>Main components of the game's saving/loading system. Upon creating a GameData object, all static game data
+in Game.cs is retrieved and saved in the object. </li>
+				<li>In SaveSystem.cs, SaveGame() method utilizes binary serialization to create a secure game data file and
+then saves it in Unity's persistent data path (changes based on platform).</li>
+				<li>BinaryFormatter formatter -> Binary formatting object. <br>FileStream stream -> Create a file at path.<br>formatter.Serialize(&lt;Filestream&gt;,&lt;data&gt;)</li>
+			</ul>
+			<li>LoadGame() method then allows for loading game data from the file saved in the file path if such a file exists.</li>
 		</ul>
 </div>
 
