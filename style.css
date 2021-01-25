@@ -47,6 +47,10 @@ footer {
 footer a {
     color: #d5d5d5;
 }
+/*------ game -----*/
+
+
+
 /*------ table of contents + container with coivd19-----*/
 .top-container {
     width: 100%;
@@ -71,7 +75,7 @@ footer a {
 
 /*----- Information -----*/
 
-.information, .masks, .handwash, .disinfect, .isolation, .stress, .covid {
+.information, .masks, .handwash, .disinfect, .isolation, .stress, .covid, .virus,.vaccine {
     padding: 2rem;
     padding-top: 0%;
     padding-bottom: 0%;
@@ -113,7 +117,6 @@ footer a {
     padding: 10px;
     text-align: left;
   }
-
 
 .red{
     color: red;
