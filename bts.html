@@ -129,7 +129,7 @@
 <hr>
 </div>
 <div class="Week5">
-		<h1>Week 5 | Finishing Touches</h1>
+		<h1>Week 5 | Core Features</h1>
 		<p>Since 1/24 is the due date for a runnable project, we focused on finshing important features and polishing existing ones.</p>
 		<h3>Finished Features and Tasks:</h3>
 		<ul>
@@ -159,7 +159,12 @@
 		</ul>
 </div>
 <div class="Week6">
-	<h1>Week 6</h1>
+	<h1>Week 6 | Finishing Touches</h1>
+	<p>After the first build is uploaded to Github, we continues to finish the Laptop scene and improve upon other feautures.</p>
+	<ul>
+		<li>Watering Plant Animation to Plant Buttons</li>
+		<li>Increased Mental and Physical Stat Effects on the Wake Up Button</li>
+	</ul>
 </div>
 <div class="Scripts">
 		<h1>The Unity Scripts</h1>
@@ -175,11 +180,12 @@
 			<li>KitchenActions.cs</li>
 			<img src="img/Script_KitchenActions.PNG">
 			<li>KitchenProcessControl.cs</li>
-			<img src="img/Script_KitchenProcess1.png">
-			<img src="img/Script_KitchenProcess2.png">
+			<img src="img/Script_KitchenProcess1.png"> <br>
+			<img src="img/Script_KitchenProcess2.png"> <br>
 			<img src="img/Script_KitchenProcess3.png">
 			<li>FoodDescriptionChanger.cs</li>
-
+			<img src="img/Script_FoodDescription.PNG"> <br>
+			<img src="img/Script_FoodDescription2.PNG">
 			<li>Bed.cs</li>
 			<img src="img/Script_Bed.PNG">
 			<p>Scripts that activate, deactivate, and modify game objects and what they contain under certain conditions
@@ -195,8 +201,12 @@ A summary of what these scripts do:</p>
 		<hr>
 		<ul>
 			<li>Tooltip.cs</li>
+			<img src="img/Script_Tooltip.PNG"> <br>
+			<img src="img/Script_Tooltip2.PNG">
 			<li>TooltipSystem.cs</li>
+			<img src="img/Script_TooltipSystem.PNG">
 			<li>TooltipTrigger.cs</li>
+			<img src="img/Script_ToolTrigger.PNG">
 			<p>Scripts that allow attaching tooltips that show when hovering over objects in scenes.</p>
 			<ul>
 				<li>Tooltip.cs sets text fields, manages how the tooltip resizes (upon reaching a certain number of characters),
@@ -210,6 +220,12 @@ attached to. It is also where the content of the text fields inside the tooltip 
 		<hr>
 		<ul>
 			<li>Game.cs</li>
+			<img src="img/Script_Game.PNG"> <br>
+			<img src="img/Script_Game2.PNG"> <br>
+			<img src="img/Script_Game3.PNG"> <br>
+			<img src="img/Script_Game4.PNG"> <br>
+			<img src="img/Script_Game5.PNG"> <br>
+			<img src="img/Script_Game6.PNG">
 			<p>The main essential game management and control script. It creates all the static data variables that are
 utilized within the game, methods that allow for modifying them, and methods to create time-based or other
 types of processes to run in the background when the game starts. Some time-based processes include coffee
@@ -220,15 +236,17 @@ or state.</p>
 		<hr>
 		<ul>
 			<li>GameData.cs</li>
+			<img src="img/Script_GameData.PNG">
 			<li>SaveSystem.cs</li>
+			<img src="img/Script_SaveSystem.PNG">
 			<ul>
 				<li>Main components of the game's saving/loading system. Upon creating a GameData object, all static game data
 in Game.cs is retrieved and saved in the object. </li>
 				<li>In SaveSystem.cs, SaveGame() method utilizes binary serialization to create a secure game data file and
 then saves it in Unity's persistent data path (changes based on platform).</li>
 				<li>BinaryFormatter formatter -> Binary formatting object. <br>FileStream stream -> Create a file at path.<br>formatter.Serialize(&lt;Filestream&gt;,&lt;data&gt;)</li>
+				<li>LoadGame() method then allows for loading game data from the file saved in the file path if such a file exists.</li>
 			</ul>
-			<li>LoadGame() method then allows for loading game data from the file saved in the file path if such a file exists.</li>
 		</ul>
 </div>
 
