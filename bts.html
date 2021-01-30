@@ -166,6 +166,7 @@
 	<ul>
 		<li>Watering Plant Animation to Plant Buttons</li>
 		<li>Increased Mental and Physical Stat Effects on the Wake Up Button</li>
+		<li>Fully Functional Laptop Tab with research articles and the quiz</li>
 	</ul>
 	<hr>
 </div>
@@ -215,8 +216,8 @@
 			<div id="show6">
 				<li>KitchenProcessControl.cs <a href="#show6" id="open6"><i class="far fa-images"></i></a>
 				<div id="content6">
-					<img src="img/Script_KitchenProcess1.png">
-					<img src="img/Script_KitchenProcess2.png">
+					<img src="img/Script_KitchenProcess1.png"> <br>
+					<img src="img/Script_KitchenProcess2.png"> <br>
 					<img src="img/Script_KitchenProcess3.png">
 					<a href="#hide" id="close"><i class="far fa-window-close"></i></a>
 				</div>
@@ -247,7 +248,7 @@ A summary of what these scripts do:</p>
 			<div id="show8">
 				<li>Tooltip.cs <a href="#show8" id="open"><i class="far fa-images"></i></a>
 				<div id="content8">
-					<img src="img/Script_Tooltip.PNG">
+					<img src="img/Script_Tooltip.PNG"> <br>
 					<img src="img/Script_Tooltip2.PNG">
 					<a href="#hide" id="close"><i class="far fa-window-close"></i></a>
 				</div>
@@ -336,7 +337,44 @@ then saves it in Unity's persistent data path (changes based on platform).</li>
 				<li>LoadGame() method then allows for loading game data from the file saved in the file path if such a file exists.</li>
 			</ul>
 		</ul>
+
 		<hr>
+
+		<ul>
+
+			<div id="show14">
+				<li>CircleScaleChange.cs <a href="#show14" id="open"><i class="far fa-images"></i></a>
+				<div id="content14">
+					<img src="img/Script_CircleScaleChange.PNG">
+					<a href="#hide" id="close"><i class="far fa-window-close"></i></a>
+				</div>
+			</li>
+			</div>
+			<p>This script has methods that change the size of a circle. The circle is the mouth of the person when inhaling and exhaling. When the player holds the button, the size of the circle increase.
+				When they let go of the button, the circle decreases. The text of the button also changes depending on whether the button is held or not. If statements were used to limit the size the circle could increase and decrease.</p>
+
+			<div id="show15">
+				<li>HoldButton.cs <a href="#show15" id="open"><i class="far fa-images"></i></a>
+				<div id="content15">
+					<img src="img/Script_HoldButton.PNG">
+					<a href="#hide" id="close"><i class="far fa-window-close"></i></a>
+				</div>
+			</li>
+			</div>
+			<p>This script uses events to tell other scripts when to run. The OnPointerDown and OnPointerUp methods are used to change the pointerDown boolean. These methods are include because they are required by the IPointerDownHandler and IPointerUpHandler interfaces.
+			The boolean pointerDown tells whether the button is held down or not. If the button is held down, then it will trigger the event increaseSize() and increase the circle size. If the button is released, then the event decreaseSize is triggered and decrease the circle's size.</p>
+
+			<div id="show16">
+				<li>OpenYogaGame.cs <a href="#show16" id="open"><i class="far fa-images"></i></a>
+				<div id="content16">
+					<img src="img/Script_OpenYogaGame.PNG">
+					<a href="#hide" id="close"><i class="far fa-window-close"></i></a>
+				</div>
+			</li>
+			</div>
+			<p>This script opens and closes the pop-up window of the breathing exercise minigame. This method sets the boolean that control whether the pop-up window is active or not. The boolean is set depending on the the opposite of the current boolean.</p>
+			<hr>
+		</ul>
 </div>
 
 <div class="Reflection">
@@ -431,6 +469,9 @@ We thought that the game wouldn't be enough to provide infomation about Covid-19
 					</div>
 					<div class="slide">
 							<img src="img/Progress17.png" width="500" height="300">
+					</div>
+					<div class="slide">
+							<img src="img/Progress18.png" width="500" height="300">
 					</div>
 			</div>
 </div>

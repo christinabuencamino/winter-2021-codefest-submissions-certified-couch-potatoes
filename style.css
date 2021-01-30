@@ -42,7 +42,7 @@ footer {
     padding-top: 1rem;
     padding-bottom: 1rem;
     margin: 0;
-    
+
 }
 footer a {
     color: #d5d5d5;
@@ -117,7 +117,7 @@ margin-left: 12rem;
     grid-template-columns: auto auto auto;
     padding: 0;
 }
-  
+
 .grid-item {
     padding: 10px;
     text-align: left;
@@ -132,7 +132,7 @@ margin-left: 12rem;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    
+
 }
 
 .info-list {
@@ -168,25 +168,25 @@ margin-left: 12rem;
 /*---- image slide bar -----*/
 .wrapper{
     text-align: center;
-    width: 100%; 
-    overflow-x:scroll;     
+    width: 100%;
+    overflow-x:scroll;
     white-space: nowrap;
 }
 .slide{
-    display: inline-block;  
+    display: inline-block;
 }
 .Jamboard{
     padding-top: 2rem;
 }
 
 /*---- click to expand/hide image -----*/
-#content, #content2, #content3, #content4, #content5, #content6, #content7{
+#content, #content2, #content3, #content4, #content5, #content6, #content7, #content8, #content9, #content10, #content11, #content12, #content13, #content14, #content15, #content16{
     display: none;
 }
-#show:target #content, #show2:target #content2, #show3:target #content3, #show4:target #content4, #show5:target #content5, #show6:target #content6, #show7:target #content7{
+#show:target #content, #show2:target #content2, #show3:target #content3, #show4:target #content4, #show5:target #content5, #show6:target #content6, #show7:target #content7, #show8:target #content8, #show9:target #content9, #show10:target #content10, #show11:target #content11, #show12:target #content12, #show13:target #content13, #show14:target #content14, #show15:target #content15, #show16:target #content16{
     display: inline-block;
 }
-#show:target #open, #show2:target #open, #show3:target #open, #show4:target #open, #show5:target #open, #show6:target #open, #show7:target #open{
+#show:target #open, #show2:target #open, #show3:target #open, #show4:target #open, #show5:target #open, #show6:target #open, #show7:target #open, #show8:target #open, #show9:target #open, #show10:target #open, #show11:target #open, #show12:target #open, #show13:target #open, #show14:target #open, #show15:target #open, #show16:target #open{
     display: none;
 }
 
@@ -252,11 +252,3 @@ Large (lg) devices (desktops, 992px and up)
 Extra (xl) large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) { ... }
 */
-
-
-
-
-
-
-
-
