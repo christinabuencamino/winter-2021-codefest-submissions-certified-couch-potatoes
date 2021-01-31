@@ -1,0 +1,16 @@
+{
+"companyName": "Certified Couch Potatoes",
+"productName": "A Lockdown Story",
+"productVersion": "1.5",
+"dataUrl": "Build v1.5.data.unityweb",
+"wasmCodeUrl": "Build v1.5.wasm.code.unityweb",
+"wasmFrameworkUrl": "Build v1.5.wasm.framework.unityweb",
+"graphicsAPI": ["WebGL 2.0","WebGL 1.0"],
+"webglContextAttributes": {"preserveDrawingBuffer": false},
+"splashScreenStyle": "Dark",
+"backgroundColor": "#1F1F1F",
+"cacheControl": {"default": "must-revalidate"},
+"developmentBuild": false,
+"multithreading": false,
+"unityVersion": "2019.4.17f1"
+}
