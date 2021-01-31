@@ -12,6 +12,8 @@
 ### Group info (check all that apply - add an X in the [ ])
 - [ ] We are a Daedalus Google Mentorship group
 - [ ] We are a beginner group (only completed CSCI 12700)
+### Link to Our Website:
+http://codefest.huntercs.org/winter-2021-codefest-submissions-certified-couch-potatoes/
 
 # General Info
 ## Theme: Create a Passion Project - Make something you've always wanted to build!
