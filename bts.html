@@ -42,8 +42,9 @@
 <div class="content">
 <div class="Week1">
 	<h1>Week 1 | Getting Started</h1>
-	<p>Pre-Week1: Before the official start of Codefest, we formed our group and communicated on WhatsApp where we decided our project concept: an educational game + website about the pandemic. <br>
-	In the first week, we then started working out details, game concepts, art style, and collected our ideas on Google Doc. Later, we switched over to Discord so that we could more easilly share images and group call. A website framework which the game is intended to be hosted on is created pushed onto Github.
+	<p>
+		Pre-Week1: Before the official start of Codefest, we formed our group and communicated on WhatsApp where we decided on our project concept: an educational game and a website about the pandemic.
+In the first week, we started working out details such as the game concepts and art style and collected our ideas on a Google Doc. Later, we switched over to Discord so that we could more easily share images and group calls. During this week, a website framework is created and pushed onto Github.
 	</p>
 		<h3>Preparation:</h3>
 		<ul>
@@ -56,7 +57,7 @@
 				<li>Game about epidemics and contact tracing</li>
 				<li>Target Audience: General Public</li>
 				<li>Point and Click Style game</li>
-				<li>First Person Perspective</li>
+				<li>First-Person Perspective</li>
 				<li>Need concrete objectives</li>
 				<li>End Goal: Limit the spread of the virus using Covid-19 data</li>
 				<li>The player clicks on textboxes to make a decision</li>
@@ -68,7 +69,7 @@
 </div>
 <div class="Week2">
 		<h1>Week 2 | Visuals and Gameplay</h1>
-		<p>We now focus on the gameplay. Roles are individually assigned based on our skillset, experience, and interest. The concept of the game is a player surving the pandemic in their home. We then flesh out the player's roles, screen, and the rooms. Creation of the game on Unity starts and the website is filled with material to organize and supplement the game's educational information.</p>
+		<p>We assigned ourselves roles based on our skillset, experience, and interest. The concept of the game is a player surviving the pandemic in their home. We then flesh out the player's roles, screen, and the rooms. The creation of the game on Unity starts and the website is filled with the material to organize and supplement the game's educational information.</p>
 		<h3>Ideas:</h3>
 		<ul>
 				<li>Point and Click</li>
@@ -85,7 +86,7 @@
 </div>
 <div class="Week3">
 		<h1>Week 3 | Scenes</h1>
-		<p>The focus is now on implementing game mechanics such as interactive buttons and save/load system. The background images to the game is also added. </p>
+		<p>We focused on implementing game mechanics such as interactive buttons and a save/load system. Some background images were created and imported onto Unity, such as the bedroom background.</p>
 		<h3>Finished Features and Tasks:</h3>
 		<ul>
 				<li>Basic Save and Load System</li>
@@ -114,7 +115,7 @@
 </div>
 <div class="Week4">
 		<h1>Week 4 | Core Features</h1>
-		<p>Game mechanic implementation continues such as health/mental bars, additional buttons, and player tasks. Gameplay is further fleshed out in detail such as individual values affecting player stats(money/bars) and objectives. The educational information in the game and website are further expanded and additional image scenes are added.</p>
+		<p>We continued to implement features such as health/mental bars, additional buttons, and player tasks. The gameplay was further fleshed out in detail such as individual values affecting player stats(money/bars) and objectives. The educational information in the game and website are further expanded and additional background images are added.</p>
 		<h3>Finished Features and Tasks:</h3>
 		<ul>
 				<li>Main Menu Background Image</li>
@@ -131,7 +132,7 @@
 </div>
 <div class="Week5">
 		<h1>Week 5 | Core Features</h1>
-		<p>Since 1/24 is the due date for a runnable project, we focused on finshing important features and polishing existing ones.</p>
+		<p>Since 1/24 was the due date for a runnable project, we focused on finishing important features and polishing existing ones.</p>
 		<h3>Finished Features and Tasks:</h3>
 		<ul>
 			<li>The player cannot sleep if they have not finished enough tasks.</li>
@@ -162,7 +163,7 @@
 </div>
 <div class="Week6">
 	<h1>Week 6 | Finishing Touches</h1>
-	<p>After the first build is uploaded to Github, we continues to finish the Laptop scene and improve upon other feautures.</p>
+	<p>After the first build was uploaded to Github, we continued to finish the Laptop scene and improve upon other features.</p>
 	<ul>
 		<li>Watering Plant Animation to Plant Buttons</li>
 		<li>Increased Mental and Physical Stat Effects on the Wake Up Button</li>
@@ -364,8 +365,7 @@ then saves it in Unity's persistent data path (changes based on platform).</li>
 				</div>
 			</li>
 			</div>
-			<p>This script uses events to tell other scripts when to run. The OnPointerDown and OnPointerUp methods are used to change the pointerDown boolean. These methods are include because they are required by the IPointerDownHandler and IPointerUpHandler interfaces.
-			The boolean pointerDown tells whether the button is held down or not. If the button is held down, then it will trigger the event increaseSize() and increase the circle size. If the button is released, then the event decreaseSize is triggered and decrease the circle's size.</p>
+			<p>This script uses events to tell other scripts when to run. The OnPointerDown and OnPointerUp methods are used to change the pointerDown boolean. These methods were included because they are required by the IPointerDownHandler and IPointerUpHandler interfaces. The boolean pointerDown tells whether the button is held down or not. If the button is held down, then it will trigger the event increaseSize and increase the circle size. If the button is released, then the event decreaseSize is triggered and decrease the circle's size.</p>
 
 			<div id="show16">
 				<li>OpenYogaGame.cs <a href="#show16" id="open"><i class="far fa-images"></i></a>
@@ -390,6 +390,7 @@ then saves it in Unity's persistent data path (changes based on platform).</li>
 					<img src="img/Script_Ball5.PNG">
 					<a href="#hide" id="close"><i class="far fa-window-close"></i></a>
 				</div>
+				<p>The main script for the movement and existence of the pong ball. Ball.cs checks for if the ball makes contact with a paddle/wall/goal, controls if the ball is moving when the game is paused/started, calculates the angle at which the ball will bounce at if collided with a wall or paddle, and allows for the ball to continuously move and bounce throughout the game.</p>
 			</li>
 			</div>
 
@@ -401,6 +402,7 @@ then saves it in Unity's persistent data path (changes based on platform).</li>
 				</div>
 			</li>
 			</div>
+			<p>The script that houses the text pop-ups for the player/computer scoring & winning, and the prompt for the player to play again.</p>
 
 			<div id="show19">
 				<li>PongGame.cs <a href="#show19" id="open"><i class="far fa-images"></i></a>
@@ -413,6 +415,7 @@ then saves it in Unity's persistent data path (changes based on platform).</li>
 				</div>
 			</li>
 			</div>
+			<p>This script contains the main game objects, status of the ball, and controls the game state and what happens in these states (i.e. paused, playing, start screen, game over). The text on the screen (including the game over message, scores, and instructions) changes depending on the game state. It also checks for player input to pause, resume, or quit the game. This script further keeps track of player score and triggers a win or lose when either side gets a score of 4 points, as well as the state of the ball in each game state (as in, it should not be visible during the pause screen, and should be reset when a new round is prompted).</p>
 
 			<div id="show20">
 				<li>TvComputer.cs <a href="#show20" id="open"><i class="far fa-images"></i></a>
@@ -422,6 +425,7 @@ then saves it in Unity's persistent data path (changes based on platform).</li>
 				</div>
 			</li>
 			</div>
+			<p>Sets the bounds of the game for the computer paddle and controls the movement of the computer bot. The computer paddle will track the ball (tracks the item tagged "ball") and move towards it while the ball is moving to the right.</p>
 
 			<div id="show21">
 				<li>TvPlayer.cs <a href="#show21" id="open"><i class="far fa-images"></i></a>
@@ -431,21 +435,18 @@ then saves it in Unity's persistent data path (changes based on platform).</li>
 				</div>
 			</li>
 			</div>
+			<p>This script checks user input to move the player paddle and sets the bounds of the game for the player paddle. The script will check for arrow key input to move the paddle up and down.</p>
 
 		</ul>
 </div>
 
 <div class="Reflection">
 		<h1>Reflection</h1>
-		<p>Looking back on the past month of working on this project, we feel like we learned a lot.
-		Many of us had no experience with Unity and game development. Arifa and Ahmed were the most experienced in the group so they lead the scripting in Unity.
-	However, regardless of experience, we use used tutorials and forum to aid us in coding the game and website.
-During the first and second week, we mostly brainstormed ideas in a Google Doc. We kept communicating through the groupchat and group calls to report finished task, new features, and new ideas.
-In the Following week, we refined our ideas so it was detailed enough to code it. For example, there was some confusion about how buying food would look like and how the information is used.
-We decided that the player would see a list of items in the supermarket and when they go to the kitchen, the items added to a variable. If the player bought a healthy food, then the variable represent the healthy food supply is increased.
-This method would eliminate the need for an inventory bar and the need for drawing specific foods. While deciding how features are implemented, we had to consider our time constraint and the difficulty of implementing a feature.
-During the last week, we tried to finsh all the idea we talked about. If we had more time, we would like to implement a feature that allows the player to get infected and get tested for Covid-19.
-We thought that the game wouldn't be enough to provide infomation about Covid-19 so we created a website so we can provide more infomation about it.</p>
+		<p>Looking back on the past month of working on this project, we feel like we learned a lot. Many of us had no experience with Unity and game development. Arifa and Ahmed were the most experienced in the group so they lead the scripting in Unity. However, regardless of experience, we use used tutorials and forums to aid us in coding the game and website. During the first and second week, we mostly brainstormed ideas in a Google Doc. We kept communicating through the group chat and group calls to report the finished task, new features, and new ideas. In the following week, we refined our ideas so it was detailed enough to code it. For example, there was some confusion about how buying food would look like and how the information is used. We decided that the player would see a list of items in the supermarket. When they go to the kitchen, the quantity of the items are added to a variable. If the player bought healthy food, then the variable representing the healthy food supply is increased. This method would eliminate the need for an inventory bar and the need for drawing specific foods. However, if there was more time then we would've implemented a more complex inventory system.
+		</p>
+		<br>
+		<p>While deciding how features are implemented, we had to consider our time constraints and the difficulty of implementing a feature. During the last week, we tried to finish all the ideas we talked about. If we had more time, we would like to implement a feature that allows the player to get infected and get tested for Covid-19. Currently, the game is too easy and a lot of the tasks add to the player's stats rather than decrease them. Therefore, the only way to get a game over is by constantly visiting the supermarket until the player's physical or mental health reaches zero. Also, the game doesn't have a tutorial or a page with instructions. So it may be confusing for a new player. The bathroom is an active scene. However, the player can't click on anything inside besides leaving the area. If there was more time, we could've added a button on the sink so the player can wash their hands. There are only 2 minigames, so we wanted to add more. When the player plays through the eight days, each day is very similar. So, we wanted to add day-specific events and tasks. Finally, the progress report only shows three player stats. We wanted to add more factors such as cleanliness so the game would be more challenging. Overall, this was a good learning experience for all of us. We will use this experience in our future projects and initiatives.
+		</p>
 </div>
 
 <div class="JamBoard">
